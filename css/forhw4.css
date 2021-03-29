@@ -1,0 +1,161 @@
+html {
+    background-color: #EDF2C5;
+    background-size: 940px 1260px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16 px;
+}
+
+.hr1 {
+    background-color: #7D7D7D;
+    margin-bottom: 17px;
+}
+
+.hr2 {
+    background-color: #7D7D7D;
+    height: 1px;
+    text-decoration: none;
+    border: none;
+}
+
+.square {
+    margin: 53px 160px 35px 160px;
+    justify-content: center;
+}
+
+.header {
+    text-align: left;
+}
+
+.header-title {
+    font-size: 44px;
+    color: #778A50;
+    margin: 10px 0;
+}
+
+.press-box {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #778A50;
+    border-radius: 3px;
+    color: #778A50;
+    background-color: #EDF2C5;
+    padding: 3.2px 7px;
+    margin-left: 10px;
+    margin-bottom: 17px;
+}
+
+.icon {
+    width: 25px;
+    margin-right: 10px;
+    margin-bottom: 17px;
+}
+
+.content-area2 {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-area2-1 {
+	display: flex;
+    justify-content: left;
+}
+
+.content-area2-2 {
+	display: flex;
+    justify-content: right;
+    align-self: flex-end;
+}
+
+.nav {
+	margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.nav-list {
+	display: flex;
+	margin: 0;
+	padding: 0;
+    background-color: #778A50;
+    height: 44px;
+}
+
+.nav-list-item {
+	list-style: none;
+	margin-right: 5px;
+}
+
+.nav-list-item-link {
+    FONT-WEIGHT: 300;
+    color: #EDF2C5;
+    padding: 16px 30px;
+    background-color: #778A50;
+    box-sizing: border-box;
+    height: 44px;
+    display: block;
+}
+
+.pumpkin {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.pumpkinimg {
+    width: 100%;
+}
+
+.content-area {
+	display: flex;
+    justify-content: space-between;
+}
+
+.vegetable {
+    width: 48%;
+    color: #EDF2C5;
+    display: block;
+}
+
+.picture {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact {
+    width: 48%;
+    color: #EDF2C5;
+    display: block;
+}
+
+.contact-all {
+    background-color: #F7FBDA;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3px 15px;
+}
+
+.contact-text {
+    color: #7D7D7D;
+}
+
+.footer {
+	text-align: center;
+	font-size: 12px;
+    background-color: #778A50;
+	color: #EDF2C5;
+    padding: 24px 479px;
+    width: max-content;
+}
+
+.box {
+    border-radius: 3px;
+    background-color: #778A50;
+    padding: 7.5px;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
